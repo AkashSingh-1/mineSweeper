@@ -1,0 +1,39 @@
+.root{
+    background-color: cyan;
+    height: 420px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid #000 5px;
+}
+ .valid ,.bomb {
+     background-color:green;
+     width: 40px;
+     height: 40px;
+     border: solid #000 1px;
+    line-height:2.5em;
+    text-align: center;
+ }
+ /* .bomb{
+    background-color:red;
+    width: 40px;
+    height: 40px;
+    border: solid #000 1px;
+   line-height:2.5em;
+   text-align: center;
+} */
+ /* .bomb{
+    width: 40px;
+    height: 40px;
+     background: red;
+ } */
+ .btn{
+     background: blue;
+     border-radius: 5px;
+     padding: 10px;
+     
+     
+ }
+ .checked{
+     background: #ccc;
+ }
