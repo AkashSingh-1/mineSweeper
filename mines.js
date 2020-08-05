@@ -45,7 +45,7 @@ function event(mixArray){
 for(let i=0;i<width*width;i++){
     let y=document.getElementById(i);
      y.addEventListener('click',(e)=>{
-        console.log(e)
+       // console.log(e)
         if(e.ctrlKey){
             console.log('flag');
             flag(y);
