@@ -44,24 +44,18 @@ function event(mixArray){
     
 for(let i=0;i<width*width;i++){
     let y=document.getElementById(i);
-    if(mixArray[i]=='bomb'){
-         y.addEventListener('click',(e)=>{
-             /* if(e.ctrlKey){
-                //console.log("bomb");
-                
-             } */
-             bombfun(mixArray);
-        })        
-     } 
-     else{
-         y.addEventListener('click',()=>{
-             check(y,mixArray);
-            // console.log("valid");
-             })
-     } 
-     y.addEventListener('long-press',()=>{
-        console.log('flag')
-        flag(y);
+     y.addEventListener('click',(e)=>{
+        console.log(e)
+        if(e.ctrlKey){
+            console.log('flag');
+            flag(y);
+        }
+        else if(mixArray[i]=='bomb'){
+            bombfun(mixArray);
+        }
+        else{
+            check(y,mixArray);
+        }
     })
  }
 }
