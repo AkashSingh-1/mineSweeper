@@ -5,7 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     border: solid #000 5px;
+    margin: 0% auto;
 }
+
  .valid ,.bomb {
      background-color:green;
      width: 40px;
@@ -14,26 +16,20 @@
     line-height:2.5em;
     text-align: center;
  }
- /* .bomb{
-    background-color:red;
-    width: 40px;
-    height: 40px;
-    border: solid #000 1px;
-   line-height:2.5em;
-   text-align: center;
-} */
- /* .bomb{
-    width: 40px;
-    height: 40px;
-     background: red;
- } */
+
+.bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
  .btn{
      background: blue;
      border-radius: 5px;
+     margin:5px;
      padding: 10px;
-     
-     
  }
+
  .checked{
      background: #ccc;
  }
