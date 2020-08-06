@@ -165,8 +165,7 @@ function reset(){
 
 // UI
 function UI(a){
-   
-    let x= document.querySelector('body');
+   let x= document.querySelector('body');
     let y= document.createElement('h5');
     let z=document.querySelector('.bttn')
     if(a==0){y.textContent='*******GAME OVER*******';}
@@ -179,6 +178,7 @@ function UI(a){
         document.querySelector('h5').remove();
        reset();
     },3000)
+     
 }
 
 //check
