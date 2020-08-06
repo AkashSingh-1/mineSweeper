@@ -168,9 +168,9 @@ function UI(a){
    
     let x= document.querySelector('body');
     let y= document.createElement('h5');
-    let z=document.querySelector('.btn')
-    if(a==0){y.textContent='GAME OVER';}
-    else{y.textContent='WINNER WINNER CHICKEN DINNER';}
+    let z=document.querySelector('.bttn')
+    if(a==0){y.textContent='*******GAME OVER*******';}
+    else{y.textContent='*****WINNER WINNER CHICKEN DINNER*****';}
     
      
     //x.appendChild(y);
